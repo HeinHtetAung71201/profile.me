@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --textcolor:#fff;
+    --titlecolor:#98a6ad;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    color: black;
+    position: sticky;
+    top: 0px;
+    background-color: var(--textcolor);
+    z-index: 4;
+}
+a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+}
+#name{
+    font-weight: 700;
+    font-size: 120%;
+}
+.one{
+    padding: 100px 0px;
+    background-color: #272935;
+}
+.me{
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    background-color: #272935;
+}
+.left{
+    width: 40%;
+    height: 500px;
+}
+.profile{
+    text-align: center;
+    padding: 30px 10px;
+    position: relative;
+    line-height: 41px;
+}
+.profile img{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.me_title h2{
+    font-size: 1.75em;
+    text-align: center;
+    font-weight: 700;
+    color: var(--textcolor);
+}
+
+#cs{
+    color: rgba(255,255,255,.54);
+}
+.me_title a{
+    color: #795548;
+}
+.rightdiv{
+    width: 80%;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.rightdiv h1{
+    color: var(--titlecolor);
+    font-size: 2.5rem;
+}
+.bio p{
+    color: var(--textcolor);
+    margin-top: 10px;
+    line-height: 29px;
+    font-size: 20px;
+}
+.row{
+    margin-top: 26px;
+    display: flex;
+}
+.interest{
+    width: 40%;
+    color: var(--textcolor);
+}
+.interest h3, .edu h3{
+    color: var(--titlecolor);
+    font-size: 27px;
+}
+.int{
+    padding-left:39px ;
+    margin-top: 10px;
+}
+.edu ul{
+    padding-left:39px ;
+    margin-top: 10px;
+   list-style: none;
+}
+.edu li{
+    position: relative;
+    display: flex;
+}
+.description{
+    color: var(--textcolor);
+    font-size: 20px;
+    padding: 10px;
+    /* right: 39px; */
+    position: relative;
+    top: -10px;
+}
+.uni{
+    font-size: smaller;
+    color: rgba(255,255,255,.6);;
+}
+.cusm:hover{
+    text-decoration: underline;
+}
+.netLink ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    list-style:none;
+}
+.fas, .fab, .fab{
+    color: var(--textcolor);
+}
